@@ -18,7 +18,7 @@ const Header: React.FC = () => {
     { name: 'home', id: 'hero' },
     { name: 'services', id: 'services' },
     { name: 'about', id: 'about' },
-    { name: 'contact', id: 'footer' }
+    { name: 'contact', id: 'app' }
   ];
 
   const scrollToSection = (sectionId: string) => {

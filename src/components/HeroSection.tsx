@@ -2,8 +2,6 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { Play, Smartphone, Phone, MapPin, Star, Shield, Clock, ArrowRight, Car } from 'lucide-react';
-import playmarket from '/public/Play Market.svg';
-import appstore from '/public/App Store.svg';
 
 const HeroSection: React.FC = () => {
   const { t, tArray } = useLanguage();
@@ -65,7 +63,7 @@ const HeroSection: React.FC = () => {
                 <h3 className="text-lg font-semibold text-gray-900">{t('downloadText')}</h3>
                 <div className="flex flex-col sm:flex-row gap-4">
                 
-                  <a href="https://play.google.com/store/apps/details?id=uz.unical.bektaxi.user&pcampaignid=web_share">
+                  <a target='_black' href="https://play.google.com/store/apps/details?id=uz.unical.bektaxi.user&pcampaignid=web_share">
                     <div className="playmarket"></div>
                   </a>
                  <div className="appstore"></div>
@@ -77,7 +75,12 @@ const HeroSection: React.FC = () => {
                 <h3 className="text-lg font-semibold text-gray-900">{t('contactNumber')}</h3>
                 <a href="tel:+998712345678" className="group inline-flex items-center space-x-4 bg-gradient-to-r from-green-500 to-emerald-600 text-white px-8 py-4 rounded-2xl font-bold text-xl hover:from-green-400 hover:to-emerald-500 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
                   <Phone className="h-6 w-6 group-hover:rotate-12 transition-transform" />
-                  <span>+998 (71) 234-56-78</span>
+                  <span>1265</span>
+                  <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                </a> <br />
+                        <a href="tel:+998712345678" className="group inline-flex items-center space-x-4 bg-gradient-to-r from-green-500 to-emerald-600 text-white px-8 py-4 rounded-2xl font-bold text-xl hover:from-green-400 hover:to-emerald-500 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+                  <Phone className="h-6 w-6 group-hover:rotate-12 transition-transform" />
+                  <span>+998 75 200 12 65</span>
                   <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </a>
               </div>

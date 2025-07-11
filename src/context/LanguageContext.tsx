@@ -34,14 +34,14 @@ const translations: Translations = {
     en: "Home"
   },
   nav_services: {
-    uz: "Xizmatlar",
-    ru: "Услуги",
-    en: "Services"
+    uz: "Ilova haqida",
+    ru: "О приложении",
+    en: "About the application"
   },
   nav_about: {
-    uz: "Biz haqimizda",
-    ru: "О нас",
-    en: "About"
+    uz: "Qanday ishlaydi?",
+    ru: "Как это работает?",
+    en: "How does it work?"
   },
   nav_contact: {
     uz: "Aloqa",
@@ -240,11 +240,12 @@ const translations: Translations = {
   },
 
   // Working areas
-  areas: {
-    uz: ["Toshkent", "Yunusobod", "Chilonzor", "Yashnobod", "Mirzo Ulug'bek", "Mirobod", "Shayxontohur"],
-    ru: ["Ташкент", "Юнусабад", "Чиланзар", "Яшнабад", "Мирзо Улугбек", "Мирабад", "Шайхантаур"],
-    en: ["Tashkent", "Yunusabad", "Chilanzar", "Yashnabad", "Mirzo Ulugbek", "Mirabad", "Shaykhantaur"]
-  },
+areas: {
+  uz: ["Kitob tumani"],
+  ru: ["Китобский район"],
+  en: ["Kitob District"]
+},
+
 
   // App features
   appFeatures: {

@@ -104,7 +104,7 @@ All colors MUST be HSL.
   }
 }
 .appstore {
-  background-image: url("../public/App\ Store.svg");
+  background-image: url("https://i.ibb.co/fGpghVsy/pngwing-com.png");
   background-size: cover;
   width: 250px;
   height: 70px;
@@ -112,7 +112,7 @@ All colors MUST be HSL.
   background-position: center;
 }
 .playmarket {
-  background-image: url("../public/Play\ Market.svg");
+  background-image: url("https://i.ibb.co/Psm0h8kv/Get-It-On-Google-Play-Badge-Web-color-Uzbek.png");
   background-size: cover;
   width: 250px;
   height: 70px;

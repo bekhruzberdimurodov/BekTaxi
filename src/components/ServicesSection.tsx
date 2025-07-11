@@ -257,7 +257,7 @@ const ServicesSection: React.FC = () => {
         </div>
 
         {/* Enhanced Download CTA */}
-        <div className="text-center animate-fade-in-up">
+        <div id='app'   className="text-center animate-fade-in-up">
           <div className="relative bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 rounded-3xl p-12 shadow-2xl overflow-hidden">
             {/* Enhanced animated background */}
             <div className="absolute inset-0 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 animate-gradient bg-[length:200%_200%]"></div>
@@ -267,28 +267,16 @@ const ServicesSection: React.FC = () => {
             <div className="absolute bottom-4 left-4 w-16 h-16 bg-white/10 rounded-full animate-float" style={{ animationDelay: '2s' }}></div>
             <div className="absolute top-1/2 left-8 w-12 h-12 bg-white/10 rounded-full animate-float" style={{ animationDelay: '4s' }}></div>
             
-            <div className="relative z-10 text-white">
-              <h3 className="text-5xl font-bold mb-6">{t('downloadNow')}</h3>
-              <p className="text-xl mb-10 max-w-2xl mx-auto opacity-90">
+            <div id='app' className="relative z-10 text-white">
+              <h3  className="text-5xl font-bold mb-6">{t('downloadNow')}</h3>
+              <p  className="text-xl mb-10 max-w-2xl mx-auto opacity-90">
                 {t('downloadDescription')}
               </p>
-              <div className="flex flex-col sm:flex-row items-center justify-center space-y-6 sm:space-y-0 sm:space-x-8">
-                <button className="group bg-white text-slate-800 px-12 py-6 rounded-3xl flex items-center space-x-4 font-bold text-xl hover:bg-slate-100 transition-all duration-300 hover:scale-105 transform shadow-2xl hover:shadow-3xl">
-                  <Play className="w-8 h-8 group-hover:rotate-12 transition-transform" />
-                  <div>
-                    <div className="text-sm opacity-70">{t('googlePlay')}</div>
-                    <div>{t('playStore')}</div>
-                  </div>
-                  <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
-                </button>
-                <button className="group bg-black/20 backdrop-blur-sm text-white px-12 py-6 rounded-3xl flex items-center space-x-4 font-bold text-xl border border-white/20 hover:bg-black/30 transition-all duration-300 hover:scale-105 transform shadow-2xl">
-                  <Apple className="w-8 h-8 group-hover:rotate-12 transition-transform" />
-                  <div>
-                    <div className="text-sm opacity-70">{t('app')}</div>
-                    <div>{t('appStore')}</div>
-                  </div>
-                  <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
-                </button>
+              <div  className="flex flex-col sm:flex-row items-center justify-center space-y-6 sm:space-y-0 sm:space-x-8">
+               <a href="https://play.google.com/store/apps/details?id=uz.unical.bektaxi.user&pcampaignid=web_share">
+                    <div className="playmarket"></div>
+                  </a>
+                 <div className="appstore"></div>
               </div>
             </div>
           </div>
