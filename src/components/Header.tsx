@@ -9,9 +9,9 @@ const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const languages = [
-    { code: 'uz' as const, name: 'O\'zbekcha', flag: '🇺🇿', short: 'UZ' },
-    { code: 'ru' as const, name: 'Русский', flag: '🇷🇺', short: 'RU' },
-    { code: 'en' as const, name: 'English', flag: '🇬🇧', short: 'EN' }
+    { code: 'uz' as const, name: 'O\'zbekcha', flag: 'UZ', short: 'UZ' },
+    { code: 'ru' as const, name: 'Русский', flag: 'RU', short: 'RU' },
+    { code: 'en' as const, name: 'English', flag: 'ENG', short: 'EN' }
   ];
 
   const navItems = [

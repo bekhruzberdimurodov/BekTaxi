@@ -108,6 +108,8 @@ All colors MUST be HSL.
   background-size: cover;
   width: 250px;
   height: 70px;
+  position: relative;
+  left: -15px;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -146,4 +148,16 @@ All colors MUST be HSL.
     }
     
   }
+}
+.fix4{
+  @media (max-width: 495px) {
+    font-size: 40px;
+  }
+  
+}
+.fix4{
+  @media (max-width: 405px) {
+    font-size: 38px;
+  }
+  
 }

@@ -33,7 +33,7 @@ const HeroSection: React.FC = () => {
 
             {/* Main heading */}
             <div className="space-y-6">
-              <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight animate-fade-in-up">
+              <h1 className="fix4 text-5xl lg:text-6xl font-bold text-gray-900 leading-tight animate-fade-in-up">
                 {t('title')}
               </h1>
               <p className="text-xl text-gray-600 max-w-lg leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
